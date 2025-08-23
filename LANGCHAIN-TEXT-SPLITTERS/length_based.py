@@ -6,7 +6,7 @@ loader = PyPDFLoader('LANGCHAIN-TEXT-SPLITTERS/dl-curriculum.pdf')
 docs = loader.load()
 
 splitter = CharacterTextSplitter(
-    chunk_size = 100,
+    chunk_size = 200,
     chunk_overlap = 0,
     separator= ''
 )
